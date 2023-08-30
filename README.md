@@ -1,2 +1,5 @@
 # bodhi-docker
-Docker Image for Bodhi | The opensourced hysteria backend for v2board
+
+Docker image builder for bodhi
+
+Deploy instruction: https://lotusnetwork.github.io

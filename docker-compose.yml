@@ -1,0 +1,8 @@
+version: '3'
+services:
+  bodhi:
+      image: ghcr.io/lotusproxy/bodhi-docker
+      volumes:
+        - './data:/gateway'
+      restart: always
+      network_mode: host
